@@ -1,1 +1,4 @@
-console.log('Is this thing on?');
+import { createHomePage } from './home';
+const content = document.getElementById('content');
+
+content.appendChild(createHomePage());
