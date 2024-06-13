@@ -1,4 +1,5 @@
 import { createHomePage } from './home';
-const content = document.getElementById('content');
+import './style.css';
 
+const content = document.getElementById('content');
 content.appendChild(createHomePage());
