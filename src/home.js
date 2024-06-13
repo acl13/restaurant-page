@@ -13,7 +13,7 @@ function createHomePage() {
 
     element.appendChild(title);
     element.appendChild(description);
-     element.appendChild(tots);
+    element.appendChild(tots);
 
     return element;
 
