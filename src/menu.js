@@ -1,5 +1,6 @@
 function createMenu() {
     const menu = document.createElement('div');
+    const title = document.createElement('h1');
     const ogTitle = document.createElement('h2');
     const ogDescription = document.createElement('p');
     const nachoTitle = document.createElement('h2');
@@ -9,6 +10,7 @@ function createMenu() {
     const sweetTitle = document.createElement('h2');
     const sweetDescription = document.createElement('p');
     
+    title.textContent = 'Menu';
     ogTitle.textContent = 'The O. G.';
     ogDescription.textContent = 'Our crispy tots covered in bacon and cheddar cheese, topped with sour cream and green onions';
     nachoTitle.textContent = `Nacho Mama's Tots`;
@@ -18,6 +20,7 @@ function createMenu() {
     sweetTitle.textContent = 'Sweeties';
     sweetDescription.textContent = 'Our fluffy sweet potato tots served with a creamy cinnamon butter';
 
+    menu.appendChild(title);
     menu.appendChild(ogTitle);
     menu.appendChild(ogDescription);
     menu.appendChild(nachoTitle);
