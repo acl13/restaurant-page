@@ -49,4 +49,5 @@ img {
 #content p {
     width: 80%; 
     margin: 0px auto;
+    font-weight: bold;
 }
